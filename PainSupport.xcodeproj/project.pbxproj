@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E3320621C8610D400486A60 /* video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 8E3320611C8610D400486A60 /* video.mp4 */; };
+		8E3320631C8610D400486A60 /* video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 8E3320611C8610D400486A60 /* video.mp4 */; };
+		8E3320641C8610D400486A60 /* video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 8E3320611C8610D400486A60 /* video.mp4 */; };
+		8ED90F851C860D790004EE47 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED90F841C860D790004EE47 /* AppDelegate.swift */; };
+		8ED90F871C860D790004EE47 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED90F861C860D790004EE47 /* ViewController.swift */; };
+		8ED90F8A1C860D790004EE47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8ED90F881C860D790004EE47 /* Main.storyboard */; };
+		8ED90F8D1C860D790004EE47 /* PainSupport.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8ED90F8B1C860D790004EE47 /* PainSupport.xcdatamodeld */; };
+		8ED90F8F1C860D790004EE47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8ED90F8E1C860D790004EE47 /* Assets.xcassets */; };
+		8ED90F921C860D790004EE47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8ED90F901C860D790004EE47 /* LaunchScreen.storyboard */; };
+		8ED90F9D1C860D790004EE47 /* PainSupportTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED90F9C1C860D790004EE47 /* PainSupportTests.swift */; };
+		8ED90FA81C860D790004EE47 /* PainSupportUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED90FA71C860D790004EE47 /* PainSupportUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8ED90F991C860D790004EE47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8ED90F791C860D790004EE47 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8ED90F801C860D790004EE47;
+			remoteInfo = PainSupport;
+		};
+		8ED90FA41C860D790004EE47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8ED90F791C860D790004EE47 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8ED90F801C860D790004EE47;
+			remoteInfo = PainSupport;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8E3320611C8610D400486A60 /* video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video.mp4; sourceTree = "<group>"; };
+		8ED90F811C860D790004EE47 /* PainSupport.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PainSupport.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8ED90F841C860D790004EE47 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8ED90F861C860D790004EE47 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8ED90F891C860D790004EE47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8ED90F8C1C860D790004EE47 /* PainSupport.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PainSupport.xcdatamodel; sourceTree = "<group>"; };
+		8ED90F8E1C860D790004EE47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8ED90F911C860D790004EE47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8ED90F931C860D790004EE47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8ED90F981C860D790004EE47 /* PainSupportTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PainSupportTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8ED90F9C1C860D790004EE47 /* PainSupportTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PainSupportTests.swift; sourceTree = "<group>"; };
+		8ED90F9E1C860D790004EE47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8ED90FA31C860D790004EE47 /* PainSupportUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PainSupportUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8ED90FA71C860D790004EE47 /* PainSupportUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PainSupportUITests.swift; sourceTree = "<group>"; };
+		8ED90FA91C860D790004EE47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8ED90F7E1C860D790004EE47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8ED90F951C860D790004EE47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8ED90FA01C860D790004EE47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8ED90F781C860D790004EE47 = {
+			isa = PBXGroup;
+			children = (
+				8ED90F831C860D790004EE47 /* PainSupport */,
+				8ED90F9B1C860D790004EE47 /* PainSupportTests */,
+				8ED90FA61C860D790004EE47 /* PainSupportUITests */,
+				8ED90F821C860D790004EE47 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8ED90F821C860D790004EE47 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8ED90F811C860D790004EE47 /* PainSupport.app */,
+				8ED90F981C860D790004EE47 /* PainSupportTests.xctest */,
+				8ED90FA31C860D790004EE47 /* PainSupportUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8ED90F831C860D790004EE47 /* PainSupport */ = {
+			isa = PBXGroup;
+			children = (
+				8ED90F841C860D790004EE47 /* AppDelegate.swift */,
+				8E3320611C8610D400486A60 /* video.mp4 */,
+				8ED90F861C860D790004EE47 /* ViewController.swift */,
+				8ED90F881C860D790004EE47 /* Main.storyboard */,
+				8ED90F8E1C860D790004EE47 /* Assets.xcassets */,
+				8ED90F901C860D790004EE47 /* LaunchScreen.storyboard */,
+				8ED90F931C860D790004EE47 /* Info.plist */,
+				8ED90F8B1C860D790004EE47 /* PainSupport.xcdatamodeld */,
+			);
+			path = PainSupport;
+			sourceTree = "<group>";
+		};
+		8ED90F9B1C860D790004EE47 /* PainSupportTests */ = {
+			isa = PBXGroup;
+			children = (
+				8ED90F9C1C860D790004EE47 /* PainSupportTests.swift */,
+				8ED90F9E1C860D790004EE47 /* Info.plist */,
+			);
+			path = PainSupportTests;
+			sourceTree = "<group>";
+		};
+		8ED90FA61C860D790004EE47 /* PainSupportUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8ED90FA71C860D790004EE47 /* PainSupportUITests.swift */,
+				8ED90FA91C860D790004EE47 /* Info.plist */,
+			);
+			path = PainSupportUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8ED90F801C860D790004EE47 /* PainSupport */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8ED90FAC1C860D790004EE47 /* Build configuration list for PBXNativeTarget "PainSupport" */;
+			buildPhases = (
+				8ED90F7D1C860D790004EE47 /* Sources */,
+				8ED90F7E1C860D790004EE47 /* Frameworks */,
+				8ED90F7F1C860D790004EE47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PainSupport;
+			productName = PainSupport;
+			productReference = 8ED90F811C860D790004EE47 /* PainSupport.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8ED90F971C860D790004EE47 /* PainSupportTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8ED90FAF1C860D790004EE47 /* Build configuration list for PBXNativeTarget "PainSupportTests" */;
+			buildPhases = (
+				8ED90F941C860D790004EE47 /* Sources */,
+				8ED90F951C860D790004EE47 /* Frameworks */,
+				8ED90F961C860D790004EE47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8ED90F9A1C860D790004EE47 /* PBXTargetDependency */,
+			);
+			name = PainSupportTests;
+			productName = PainSupportTests;
+			productReference = 8ED90F981C860D790004EE47 /* PainSupportTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8ED90FA21C860D790004EE47 /* PainSupportUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8ED90FB21C860D790004EE47 /* Build configuration list for PBXNativeTarget "PainSupportUITests" */;
+			buildPhases = (
+				8ED90F9F1C860D790004EE47 /* Sources */,
+				8ED90FA01C860D790004EE47 /* Frameworks */,
+				8ED90FA11C860D790004EE47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8ED90FA51C860D790004EE47 /* PBXTargetDependency */,
+			);
+			name = PainSupportUITests;
+			productName = PainSupportUITests;
+			productReference = 8ED90FA31C860D790004EE47 /* PainSupportUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8ED90F791C860D790004EE47 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "The PainSquad";
+				TargetAttributes = {
+					8ED90F801C860D790004EE47 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = REK8DLC44E;
+					};
+					8ED90F971C860D790004EE47 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = REK8DLC44E;
+						TestTargetID = 8ED90F801C860D790004EE47;
+					};
+					8ED90FA21C860D790004EE47 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = REK8DLC44E;
+						TestTargetID = 8ED90F801C860D790004EE47;
+					};
+				};
+			};
+			buildConfigurationList = 8ED90F7C1C860D790004EE47 /* Build configuration list for PBXProject "PainSupport" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8ED90F781C860D790004EE47;
+			productRefGroup = 8ED90F821C860D790004EE47 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8ED90F801C860D790004EE47 /* PainSupport */,
+				8ED90F971C860D790004EE47 /* PainSupportTests */,
+				8ED90FA21C860D790004EE47 /* PainSupportUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8ED90F7F1C860D790004EE47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8ED90F921C860D790004EE47 /* LaunchScreen.storyboard in Resources */,
+				8ED90F8F1C860D790004EE47 /* Assets.xcassets in Resources */,
+				8ED90F8A1C860D790004EE47 /* Main.storyboard in Resources */,
+				8E3320621C8610D400486A60 /* video.mp4 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8ED90F961C860D790004EE47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E3320631C8610D400486A60 /* video.mp4 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8ED90FA11C860D790004EE47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E3320641C8610D400486A60 /* video.mp4 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8ED90F7D1C860D790004EE47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8ED90F871C860D790004EE47 /* ViewController.swift in Sources */,
+				8ED90F8D1C860D790004EE47 /* PainSupport.xcdatamodeld in Sources */,
+				8ED90F851C860D790004EE47 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8ED90F941C860D790004EE47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8ED90F9D1C860D790004EE47 /* PainSupportTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8ED90F9F1C860D790004EE47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8ED90FA81C860D790004EE47 /* PainSupportUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8ED90F9A1C860D790004EE47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8ED90F801C860D790004EE47 /* PainSupport */;
+			targetProxy = 8ED90F991C860D790004EE47 /* PBXContainerItemProxy */;
+		};
+		8ED90FA51C860D790004EE47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8ED90F801C860D790004EE47 /* PainSupport */;
+			targetProxy = 8ED90FA41C860D790004EE47 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8ED90F881C860D790004EE47 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8ED90F891C860D790004EE47 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8ED90F901C860D790004EE47 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8ED90F911C860D790004EE47 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8ED90FAA1C860D790004EE47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		8ED90FAB1C860D790004EE47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8ED90FAD1C860D790004EE47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PainSupport/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "The-PainSquad.PainSupport";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8ED90FAE1C860D790004EE47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PainSupport/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "The-PainSquad.PainSupport";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8ED90FB01C860D790004EE47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PainSupportTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "The-PainSquad.PainSupportTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PainSupport.app/PainSupport";
+			};
+			name = Debug;
+		};
+		8ED90FB11C860D790004EE47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PainSupportTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "The-PainSquad.PainSupportTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PainSupport.app/PainSupport";
+			};
+			name = Release;
+		};
+		8ED90FB31C860D790004EE47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PainSupportUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "The-PainSquad.PainSupportUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PainSupport;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		8ED90FB41C860D790004EE47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PainSupportUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "The-PainSquad.PainSupportUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PainSupport;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8ED90F7C1C860D790004EE47 /* Build configuration list for PBXProject "PainSupport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8ED90FAA1C860D790004EE47 /* Debug */,
+				8ED90FAB1C860D790004EE47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8ED90FAC1C860D790004EE47 /* Build configuration list for PBXNativeTarget "PainSupport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8ED90FAD1C860D790004EE47 /* Debug */,
+				8ED90FAE1C860D790004EE47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8ED90FAF1C860D790004EE47 /* Build configuration list for PBXNativeTarget "PainSupportTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8ED90FB01C860D790004EE47 /* Debug */,
+				8ED90FB11C860D790004EE47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8ED90FB21C860D790004EE47 /* Build configuration list for PBXNativeTarget "PainSupportUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8ED90FB31C860D790004EE47 /* Debug */,
+				8ED90FB41C860D790004EE47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8ED90F8B1C860D790004EE47 /* PainSupport.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8ED90F8C1C860D790004EE47 /* PainSupport.xcdatamodel */,
+			);
+			currentVersion = 8ED90F8C1C860D790004EE47 /* PainSupport.xcdatamodel */;
+			path = PainSupport.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8ED90F791C860D790004EE47 /* Project object */;
+}
